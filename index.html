@@ -2,9 +2,206 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Layout Price</title>
   </head>
-  <body></body>
+  <body>
+    <section class="container">
+      <!-- CARD 1 -->
+
+      <div class="product-cards">
+        <div class="product-cards__titles">
+          <h1 class="product-cards__titles_title">Basic</h1>
+          <span class="product-cards__titles_subtitle">Website</span>
+        </div>
+        <div class="product-cards__price product-cards__price_green">99€</div>
+        <p class="product-cards__description">
+          Simple website made in the world's most popular CMS system, Wordpress.
+        </p>
+        <ul class="product-cards__list">
+          <div class="product-cards__list_item">
+            <li class="product-cards__list_text">Website in WordPress</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">3 sub pages</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">Theme customized</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">Help and guidance</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">System introduction</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">2 weeks free support</li>
+          </div>
+        </ul>
+
+        <button class="product-cards__button product-cards__button_green">ORDER NOW</button>
+      </div>
+
+      <!-- CARD 2 -->
+
+      <div class="product-cards">
+        <div class="product-cards__titles">
+          <h1 class="product-cards__titles_title">Business</h1>
+          <span class="product-cards__titles_subtitle">Website</span>
+        </div>
+        <div class="product-cards__price product-cards__price_blue">299€</div>
+        <p class="product-cards__description">
+          Simple website made in the world's most popular CMS system, Wordpress.
+        </p>
+        <ul class="product-cards__list">
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">Website in WordPress</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">3-5 sub pages</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">Theme customized</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">Help and guidance</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">System introduction</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">1 month free support</li>
+          </div>
+        </ul>
+        <button class="product-cards__button product-cards__button_blue">ORDER NOW</button>
+        <div class="product-cards__popular">POPULAR</div>
+      </div>
+
+      <!-- CARD 3 -->
+
+      <div class="product-cards">
+        <div class="product-cards__titles">
+          <h1 class="product-cards__titles_title">Basic</h1>
+          <span class="product-cards__titles_subtitle">Webshop</span>
+        </div>
+        <div class="product-cards__price product-cards__price_orange">599€</div>
+        <p class="product-cards__description">
+          Simple website made in the world's most popular CMS system, Wordpress.
+        </p>
+        <ul class="product-cards__list">
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">Webshop in WordPress</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">3 sub pages</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">Theme customized</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">Help and guidance</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">System introduction</li>
+          </div>
+          <div class="product-cards__list_item">
+            <img
+              class="product-cards__list_image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="tick"
+            />
+            <li class="product-cards__list_text">1 month free support</li>
+          </div>
+        </ul>
+        <button class="product-cards__button product-cards__button_orange">ORDER NOW</button>
+      </div>
+    </section>
+  </body>
 </html>

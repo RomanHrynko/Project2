@@ -4,7 +4,7 @@
 }
 
 html {
-  font-family: Montserrat, "sans-serif";
+  font-family: "Montserrat", "sans-serif";
 }
 
 .container {
@@ -15,7 +15,7 @@ html {
   align-items: center;
 }
 
-.product-cards {
+.price-card {
   display: flex;
   flex-direction: column;
   background-color: #334247;
@@ -27,15 +27,15 @@ html {
   overflow: hidden;
   position: relative;
 }
-.product-cards:last-child {
+.price-card:last-child {
   margin-right: 0;
 }
-.product-cards__titles {
+.price-card__titles {
   display: flex;
   flex-direction: column;
   margin: 33px 108px;
 }
-.product-cards__titles_title {
+.price-card__titles_title {
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
@@ -43,14 +43,14 @@ html {
   margin: 0;
   color: #ffffff;
 }
-.product-cards__titles_subtitle {
+.price-card__titles_subtitle {
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
   color: #ffffff;
 }
-.product-cards__price {
+.price-card__price {
   background-color: #5bb189;
   width: 380px;
   height: 105px;
@@ -60,16 +60,16 @@ html {
   text-align: center;
   color: #ffffff;
 }
-.product-cards__price_green {
+.price-card__price_green {
   background-color: #5bb189;
 }
-.product-cards__price_blue {
+.price-card__price_blue {
   background-color: #3a6ba5;
 }
-.product-cards__price_orange {
+.price-card__price_orange {
   background-color: #ec632a;
 }
-.product-cards__description {
+.price-card__description {
   margin: 0;
   margin: 40px 26px;
   font-weight: 300;
@@ -78,29 +78,29 @@ html {
   text-align: center;
   color: #ffffff;
 }
-.product-cards__list {
+.price-card__options-list {
   list-style-type: none;
   width: 380px;
   margin: 0;
   padding: 0;
 }
-.product-cards__list_item {
+.price-card__options-list_item {
   display: flex;
 }
-.product-cards__list_item:nth-child(odd) {
+.price-card__options-list_item:nth-child(odd) {
   background-color: #2a3438;
 }
-.product-cards__list_image {
+.price-card__options-list_image {
   padding: 18px 22px 19px 22px;
 }
-.product-cards__list_text {
+.price-card__options-list_text {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
   padding: 16px 21px 16px 0;
 }
-.product-cards__button {
+.price-card__order-btn {
   border-radius: 20px;
   border: none;
   width: 154px;
@@ -110,16 +110,16 @@ html {
   color: #ffffff;
   margin: 40px auto;
 }
-.product-cards__button_green {
+.price-card__order-btn_green {
   background-color: #5bb189;
 }
-.product-cards__button_blue {
+.price-card__order-btn_blue {
   background-color: #3a6ba5;
 }
-.product-cards__button_orange {
+.price-card__order-btn_orange {
   background-color: #ec632a;
 }
-.product-cards__popular {
+.price-card__badge {
   position: absolute;
   width: 147px;
   height: 25px;

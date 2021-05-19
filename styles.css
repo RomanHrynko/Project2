@@ -33,9 +33,7 @@ html {
 .price-card__titles {
   display: flex;
   flex-direction: column;
-  margin: 33px 108px;
-  width: 164px;
-  height: 64px;
+  margin: 33px auto;
 }
 .price-card__titles_title {
   font-weight: 700;
@@ -58,8 +56,10 @@ html {
   height: 105px;
   font-weight: 700;
   font-size: 55px;
-  line-height: 105px;
-  text-align: center;
+  line-height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
 }
 .price-card__price_green {
@@ -125,8 +125,11 @@ html {
   position: absolute;
   width: 147px;
   height: 25px;
-  line-height: 25px;
-  text-align: center;
+  line-height: 17px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
   background-color: #dc3f45;
   color: #ffffff;

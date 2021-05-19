@@ -78,6 +78,10 @@
 
     &_item {
       display: flex;
+
+      &:nth-child(odd) {
+        background-color: $color-odd-item-fone;
+      }
     }
 
     &_image {

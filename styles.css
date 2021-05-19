@@ -88,6 +88,9 @@ html {
 .product-cards__list_item {
   display: flex;
 }
+.product-cards__list_item:nth-child(odd) {
+  background-color: #2a3438;
+}
 .product-cards__list_image {
   padding: 18px 22px 19px 22px;
 }

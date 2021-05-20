@@ -1,140 +1,139 @@
 .price-card {
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  margin: 115px 18px 115px 0;
+  flex-shrink: 0;
   background-color: $color-card-fone;
-  margin: 63px 0 63px 0;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
   width: 380px;
   height: 770px;
-  margin-right: 18px;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
-  position: relative;
 
   &:last-child {
     margin-right: 0;
   }
 
-  &__titles {
+  &__title {
     display: flex;
     flex-direction: column;
-    margin: 33px auto;
+    align-items: center;
+  }
 
-    &_title {
-      font-weight: $type-bold * 7;
-      font-size: 35px;
-      line-height: 43px;
-      text-align: center;
-      margin: 0;
-      color: $text-color_white;
-    }
+  &__title-main {
+    margin: 33px 0 0 0;
+    line-height: 43px;
+    font-size: 35px;
+    font-weight: $type-bold * 7;
+  }
 
-    &_subtitle {
-      font-weight: $type-bold * 3;
-      font-size: 20px;
-      line-height: 24px;
-      text-align: center;
-      color: $text-color_white;
-    }
+  &__title-less {
+    line-height: 24px;
+    font-size: 20px;
   }
 
   &__price {
-    background-color: $color-green;
-    width: 380px;
-    height: 105px;
-    font-weight: $type-bold * 7;
-    font-size: 55px;
-    line-height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $text-color_white;
+    margin-top: 33px;
+    height: 105px;
+    line-height: 67px;
+    font-size: 55px;
+    font-weight: $type-bold * 7;
 
     &_green {
-      background-color: $color-green;
+      background-color: $color-card-green;
     }
 
     &_blue {
-      background-color: $color-blue;
+      background-color: $color-card-blue;
     }
 
     &_orange {
-      background-color: $color-orange;
+      background-color: $color-card-orange;
     }
   }
+
   &__description {
-    margin: 0;
-    margin: 40px 26px;
-    font-weight: $type-bold * 3;
-    font-size: 15px;
+    margin: 40px 26px 0 26px;
     line-height: 18px;
     text-align: center;
-    color: $text-color_white;
+    font-size: 15px;
+    font-weight: $type-bold * 3;
   }
 
   &__options-list {
-    list-style-type: none;
-    width: 380px;
-    margin: 0;
+    margin: 40px 0 0 0;
     padding: 0;
+    list-style-type: none;
+  }
 
-    &_item {
-      display: flex;
+  &__item {
+    display: flex;
+    align-items: center;
+    padding-left: 59px;
+    height: 50px;
+    line-height: 18px;
+    font-weight: $type-bold * 3;
+    font-size: 15px;
+    background-repeat: no-repeat;
 
-      &:nth-child(odd) {
-        background-color: $color-odd-item-fone;
-      }
+    &_green {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+      background-position: 22px center;
     }
 
-    &_image {
-      padding: 18px 22px 19px 22px;
+    &_blue {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+      background-position: 22px center;
     }
 
-    &_text {
-      font-weight: $type-bold * 3;
-      font-size: 15px;
-      line-height: 18px;
-      color: $text-color_white;
-      padding: 16px 21px 16px 0;
+    &_orange {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+      background-position: 22px center;
+    }
+
+    &:nth-child(odd) {
+      background-color: $color-odd-item-fone;
     }
   }
 
   &__order-btn {
-    border-radius: 20px;
-    border: none;
+    display: block;
+    margin: 39px auto 0;
     width: 154px;
     height: 40px;
     font-size: 14px;
     line-height: 17px;
-    color: $text-color_white;
-    margin: 40px auto;
+    border-radius: 20px;
+    color: $text-color-white;
+    border: none;
 
     &_green {
-      background-color: $color-green;
+      background-color: $color-button-green;
     }
 
     &_blue {
-      background-color: $color-blue;
+      background-color: $color-button-blue;
     }
 
     &_orange {
-      background-color: $color-orange;
+      background-color: $color-button-orange;
     }
   }
 
   &__badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
+    top: 30px;
+    right: -30px;
+    transform: rotate(45deg);
     width: 147px;
     height: 25px;
     line-height: 17px;
     font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: $type-bold * 7;
     background-color: $color-popular-red;
-    color: $text-color_white;
-    transform: rotate(45deg);
-    top: 30px;
-    right: -30px;
   }
 }

@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### https://romanhrynko.github.io/Project2/
+### https://romanhrynko.github.io/table-price/
 
 Layout with product prices
 
@@ -15,6 +15,3 @@ Layout with product prices
 ### Author
 
 - Roman Hrynko
-
-
-
